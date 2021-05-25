@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./src/css/main.css">
+  
+  <title>Frontend Mentor | Pricing component with toggle</title>
+
+</head>
+<body>
+
+  <main>
+    <div class="container d-flex mt-5 mt-lg-0">
+      <div class="bg-cards">
+        <div class="text-center mb-5">
+          <h1>Our Pricing</h1>
+          <div class="row no-gutters pt-3">
+            <div class="col-4 col-lg-5 d-flex justify-content-end">
+              <span>Monthly</span>
+            </div>
+            <div class="col-4 col-lg-2">
+              <div class="toggle">
+                <label for="checkbox" class="d-none"></label>
+                <input type="checkbox" name="checkbox">
+                <span id="switch"></span>
+              </div>
+            </div>
+            <div class="col-4 col-lg-5 d-flex justify-content-start">
+              <span>Annually</span>
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-12 col-lg-4">
+            <div class="card-side mx-auto">
+              <h5 class="mb-4">Basic</h5>
+              <span class="d-block display-4 first"><small class="h2">&dollar;</small>19.99</span>
+              <span class="d-none display-4 second"><small class="h2">&dollar;</small>199.99</span>
+              <p class="my-4 border-bottom border-top mx-5 py-3">500 GB Storage</p>
+              <p class="my-4 border-bottom mx-5 pb-3">2 Users Allowed</p>
+              <p class="my-4 border-bottom mx-5 pb-3">Send up to 3 GB</p>
+              <button class="btn-custom btn-side">Learn More</button>             
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card-middle mx-auto">
+              <h5 class="mb-4">Professional</h5>
+              <span class="d-block display-4 first"><small class="h2">&dollar;</small>24.99</span>
+              <span class="d-none display-4 second"><small class="h2">&dollar;</small>249.99</span>
+              <p class="my-4 border-bottom border-top mx-5 py-3">1 TB Storage</p>
+              <p class="my-4 border-bottom mx-5 pb-3">5 Users Allowed</p>
+              <p class="my-4 border-bottom mx-5 pb-3">Send up to 10 GB</p>
+              <button class="btn-custom2 btn-middle">Learn More</button>     
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+            <div class="card-side mx-auto">
+              <h5 class="mb-4">Master</h5>
+              <span class="d-block display-4 first"><small class="h2">&dollar;</small>39.99</span>
+              <span class="d-none display-4 second"><small class="h2">&dollar;</small>399.99</span>
+              <p class="my-4 border-bottom border-top mx-5 py-3">2 TB Storage</p>
+              <p class="my-4 border-bottom mx-5 pb-3">10 Users Allowed</p>
+              <p class="my-4 border-bottom mx-5 pb-3">Send up to 20 GB</p>
+              <button class="btn-custom btn-side">Learn More</button>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  <script src="./src/js/script.js"></script>
+</body>
+</html>
